@@ -1,15 +1,15 @@
 #include "stdafx.h"
 #include "Resources.h"
-
+/*
 std::string* name;
 bool luxury;
-int price;
+int price;*/
 
 Resources::Resources() {}
 
-Resources::Resources(std::string* _name, bool _luxury, int _price)
+Resources::Resources(std::string* name, bool luxury, int price)
 {
-	name = _name;
-	luxury = _luxury;
-	price = _price;
+	_name = name;
+	_luxury = luxury;
+	_price = price;
 }

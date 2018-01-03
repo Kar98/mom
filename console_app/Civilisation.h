@@ -1,12 +1,13 @@
 #pragma once
+//#include "Resources.h"
 #include <string>
 #include "Resources.h"
 
+
+
+
 class Civilisation {
 	int width, height;
-
-
-
 
 public:
 	Civilisation(std::string* name, std::string* leader);

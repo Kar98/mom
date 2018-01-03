@@ -22,15 +22,11 @@ int main()
 	Resources* silver = new Resources(new string("Silver"), true, 60);
 	Resources* salt = new Resources(new string("Salt"), false, 20);
 	Resources* dyes = new Resources(new string("Dyes"), true, 50);
-
-
-
-
-	while (run) 
-	{
-		cin >> resp;
-
-	}
+	
+	mongol.AddResource(gold);
+	mongol.AddResource(silver);
+	mongol.AddResource(salt);
+	mongol.AddResource(dyes);
 
 
 	
